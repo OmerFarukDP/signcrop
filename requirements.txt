@@ -1,4 +1,9 @@
-Flask==2.3.3
-PyMuPDF==1.23.7
-opencv-python==4.9.0.80
-numpy==1.26.4
+pip>=25.2
+setuptools>=70.0
+wheel>=0.42
+
+Flask
+gunicorn
+opencv-python-headless
+numpy
+fitz  # or PyMuPDF depending on your code
